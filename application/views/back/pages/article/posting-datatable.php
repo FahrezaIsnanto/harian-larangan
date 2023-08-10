@@ -10,7 +10,7 @@
          serverSide: true,
          order: [0, 'desc'],
          ajax: {
-            'url': '/back/posting/ajax_list',
+            'url': "<?= base_url('back/posting/ajax_list') ?>",
             'type': "POST"
          },
          columnDefs: [{
