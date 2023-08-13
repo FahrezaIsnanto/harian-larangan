@@ -15,7 +15,7 @@ $category = $this->uri->segment(3);
          <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-         <ul class="navbar-nav w-100 justify-content-center">
+         <!-- <ul class="navbar-nav w-100 justify-content-center">
             <?php foreach ($navbar as $n) : ?>
                <li class="nav-item <?php if ($n->slug === $category) {
                                        echo "active";
@@ -23,7 +23,7 @@ $category = $this->uri->segment(3);
                   <a class="nav-link" href="<?= base_url("blog/category/$n->slug") ?>"><?= $n->category_name ?></a>
                </li>
             <?php endforeach ?>
-         </ul>
+         </ul> -->
          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item">
                <a class="nav-link" href="<?= base_url() ?>">
